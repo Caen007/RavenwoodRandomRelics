@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Library</OutputType>
+		<TargetFramework>net48</TargetFramework>
+		<RootNamespace>RavenwoodRandomRelics</RootNamespace>
+		<AssemblyName>RavenwoodRandomRelics</AssemblyName>
+		<LangVersion>10</LangVersion>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	</PropertyGroup>
+	<ItemGroup>
+	  <None Remove="ravenwoodrandomrelics" />
+	</ItemGroup>
+	<ItemGroup>
+	  <EmbeddedResource Include="ravenwoodrandomrelics" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+		<Reference Include="0Harmony">
+		  <HintPath>..\RavenwoodRandomRelicsUnity\Libs\0Harmony.dll</HintPath>
+		</Reference>
+		<Reference Include="assembly_valheim">
+			<HintPath>..\RavenwoodRandomRelicsUnity\Libs\assembly_valheim.dll</HintPath>
+		</Reference>
+		<Reference Include="BepInEx">
+		  <HintPath>..\RavenwoodRandomRelicsUnity\Libs\BepInEx.dll</HintPath>
+		</Reference>
+		<Reference Include="Jotunn">
+		  <HintPath>..\RavenwoodRandomRelicsUnity\Libs\Jotunn.dll</HintPath>
+		</Reference>
+		<Reference Include="ServerSync">
+		  <HintPath>..\RavenwoodRandomRelicsUnity\Libs\ServerSync.dll</HintPath>
+		</Reference>
+		<Reference Include="Unity.TextMeshPro">
+		  <HintPath>..\RavenwoodRandomRelicsUnity\Libs\Unity.TextMeshPro.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine">
+		  <HintPath>..\RavenwoodRandomRelicsUnity\Libs\UnityEngine.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.AssetBundleModule">
+		  <HintPath>..\RavenwoodRandomRelicsUnity\Libs\UnityEngine.AssetBundleModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ClothModule">
+		  <HintPath>..\RavenwoodRandomRelicsUnity\Libs\UnityEngine.ClothModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.CoreModule">
+		  <HintPath>..\RavenwoodRandomRelicsUnity\Libs\UnityEngine.CoreModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.ImageConversionModule">
+		  <HintPath>..\RavenwoodRandomRelicsUnity\Libs\UnityEngine.ImageConversionModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.PhysicsModule">
+		  <HintPath>..\RavenwoodRandomRelicsUnity\Libs\UnityEngine.PhysicsModule.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine.UI">
+		  <HintPath>..\RavenwoodRandomRelicsUnity\Libs\UnityEngine.UI.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+</Project>
