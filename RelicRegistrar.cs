@@ -409,6 +409,24 @@ namespace RavenwoodRandomRelics
 
             new RelicRegistration("Frost_Crystal", "Frost Crystal", new[] {
                 new RequirementConfig("Crystal", 5)
+            }, "A custom decorative piece."),
+
+            // Statues
+
+            new RelicRegistration("RRR_Medal_Cthulhu", "Cthulhu Medal", new[] {
+                new RequirementConfig("Stone", 15)
+            }, "A custom decorative piece."),
+
+            new RelicRegistration("RRR_Medal_Octopus", "Octopus Medal", new[] {
+                new RequirementConfig("Stone", 15)
+            }, "A custom decorative piece."),
+
+            new RelicRegistration("RRR_Medal_Sectarian", "Sectarian Medal", new[] {
+                new RequirementConfig("Stone", 15)
+            }, "A custom decorative piece."),
+
+            new RelicRegistration("RRR_Statue_Crab", "Crab Statue", new[] {
+                new RequirementConfig("Stone", 15)
             }, "A custom decorative piece.")
        };
 
