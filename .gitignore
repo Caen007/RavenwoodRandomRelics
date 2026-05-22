@@ -1,6 +1,9 @@
+Libs/
+app.config
+ravenwoodrandomrelics
 .vs/
-obj/
 bin/
+obj/
 .vscode/
 *.user
 *.suo
