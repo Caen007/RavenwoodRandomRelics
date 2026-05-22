@@ -36,6 +36,34 @@ namespace RavenwoodRandomRelics
 
         public static readonly List<RelicRegistration> AllRegistrations = new()
         {
+             new RelicRegistration("blackdragonskeleton", "Dark Angel", new[] {
+                new RequirementConfig("Iron", 20), new RequirementConfig("FineWood", 20), new RequirementConfig("Coins", 100)
+            }, "A custom decorative piece."),
+
+            new RelicRegistration("dragon", "Draco", new[] {
+                new RequirementConfig("Eitr", 333), new RequirementConfig("Coins", 3333)
+            }, "A custom decorative piece."),
+
+            new RelicRegistration("throne", "Odin", new[] {
+                new RequirementConfig("Stone", 100), new RequirementConfig("Bronze", 100),new RequirementConfig("Coins", 1000)
+            }, "A custom decorative piece."),
+
+            new RelicRegistration("greythrone", "Grey throne", new[] {
+                new RequirementConfig("Stone", 100), new RequirementConfig("Bronze", 20), new RequirementConfig("Coins", 200)
+            }, "A custom decorative piece."),
+
+            new RelicRegistration("whitethrone", "White throne", new[] {
+                new RequirementConfig("Stone", 100), new RequirementConfig("Bronze", 20), new RequirementConfig("Coins", 200)
+            }, "A custom decorative piece."),
+
+            new RelicRegistration("blackthrone", "Black throne", new[] {
+                new RequirementConfig("Stone", 100), new RequirementConfig("Bronze", 20), new RequirementConfig("Coins", 200)
+            }, "A custom decorative piece."),
+
+            new RelicRegistration("goldenthrone", "Gold throne", new[] {
+                new RequirementConfig("Stone", 100), new RequirementConfig("Bronze", 20), new RequirementConfig("Coins", 200)
+            }, "A custom decorative piece."),
+
             new RelicRegistration("valkyrie", "Norse Valkyrie", new[] {
                 new RequirementConfig("Bronze", 100), new RequirementConfig("FineWood", 25)
             }, "Norse Valkyrie."),
@@ -76,6 +104,68 @@ namespace RavenwoodRandomRelics
                 new RequirementConfig("Stone", 40), new RequirementConfig("Coins", 40)
             }, "The Lion King."),
 
+            new RelicRegistration("horse", "Horse Bust Statue", new[] {
+                new RequirementConfig("Stone", 10), new RequirementConfig("FineWood", 10)
+            }, "A custom decorative piece."),
+
+            // Statues
+
+            new RelicRegistration("RRR_Medal_Cthulhu", "Cthulhu Medal", new[] {
+                new RequirementConfig("Stone", 25), new RequirementConfig("Coins", 10)
+            }, "A custom decorative piece."),
+
+            new RelicRegistration("RRR_Medal_Octopus", "Octopus Medal", new[] {
+                new RequirementConfig("Stone", 25), new RequirementConfig("Coins", 10)
+            }, "A custom decorative piece."),
+
+            new RelicRegistration("RRR_Medal_Sectarian", "Sectarian Medal", new[] {
+                new RequirementConfig("Stone", 25), new RequirementConfig("Coins", 10)
+            }, "A custom decorative piece."),
+
+            new RelicRegistration("RRR_Statue_Crab", "Crab Statue", new[] {
+                new RequirementConfig("Stone", 25), new RequirementConfig("Coins", 10)
+            }, "A custom decorative piece."),
+
+            new RelicRegistration("RRR_Statue_Cthulhu", "Cthulhu Statue", new[] {
+                new RequirementConfig("Stone", 25), new RequirementConfig("Coins", 10)
+            }, "A custom decorative piece."),
+
+            new RelicRegistration("RRR_Statue_Demon", "Demon Statue", new[] {
+                new RequirementConfig("Stone", 25), new RequirementConfig("Coins", 10)
+            }, "A custom decorative piece."),
+
+            new RelicRegistration("RRR_Statue_Fish", "Fishman Statue", new[] {
+                new RequirementConfig("Stone", 25), new RequirementConfig("Coins", 10)
+            }, "A custom decorative piece."),
+
+            new RelicRegistration("RRR_Statue_Snake", "Snake Statue", new[] {
+                new RequirementConfig("Stone", 25), new RequirementConfig("Coins", 10)
+            }, "A custom decorative piece."),
+
+            new RelicRegistration("RRR_Statue_Obelisk", "Obelisk Statue", new[] {
+                new RequirementConfig("Stone", 25), new RequirementConfig("Coins", 10)
+            }, "A custom decorative piece."),
+
+            new RelicRegistration("RRR_Statue_Column", "Obelisk Column", new[] {
+                new RequirementConfig("Stone", 25), new RequirementConfig("Coins", 10)
+            }, "A custom decorative piece."),
+
+            new RelicRegistration("RRR_Statue_Dragon", "Dragon Obelisk", new[] {
+                new RequirementConfig("Stone", 25), new RequirementConfig("Coins", 10)
+            }, "A custom decorative piece."),
+
+            new RelicRegistration("RRR_Statue_RuneRock1", "Big Rune Rock ", new[] {
+                new RequirementConfig("Stone", 45), new RequirementConfig("Coins", 20)
+            }, "A custom decorative piece."),
+
+            new RelicRegistration("RRR_Statue_RuneRock2", "Medium Rune Rock ", new[] {
+                new RequirementConfig("Stone", 35), new RequirementConfig("Coins", 10)
+            }, "A custom decorative piece."),
+
+            new RelicRegistration("RRR_Statue_RuneRock3", "Small Rune Rock ", new[] {
+                new RequirementConfig("Stone", 25), new RequirementConfig("Coins", 5)
+            }, "A custom decorative piece."),
+
             new RelicRegistration("JapaneseStoneLantern", "Japanese Stone Lantern", new[] {
                 new RequirementConfig("Stone", 20), new RequirementConfig("Resin", 20)
             }, "A custom decorative piece." ),
@@ -99,31 +189,7 @@ namespace RavenwoodRandomRelics
             new RelicRegistration("HotAirBalloon", "Hot Air Balloon", new[] {
                 new RequirementConfig("GreydwarfEye", 10), new RequirementConfig("Coins", 10)
             }, "A custom decorative piece.", 1),
-
-            new RelicRegistration("Picture1", "Ravenwood Vikings", new[] {
-                new RequirementConfig("Wood", 10), new RequirementConfig("FineWood", 10)
-            }, "Custom decorative picture."),
-
-            new RelicRegistration("Picture2", "Ravenwood Vikings II", new[] {
-                new RequirementConfig("Wood", 10), new RequirementConfig("FineWood", 10)
-            }, "Custom decorative picture."),
-
-            new RelicRegistration("Picture3", "Ravenwood Vikings III", new[] {
-                new RequirementConfig("Wood", 10), new RequirementConfig("FineWood", 10)
-            }, "Custom decorative picture."),
-
-            new RelicRegistration("Picture4", "Ravenwood Vikings IV", new[] {
-                new RequirementConfig("Wood", 10), new RequirementConfig("FineWood", 10)
-            }, "Custom decorative picture."),
-
-            new RelicRegistration("Picture5", "Ravenwood Vikings V", new[] {
-                new RequirementConfig("Wood", 10), new RequirementConfig("FineWood", 10)
-            }, "Custom decorative picture."),
-
-            new RelicRegistration("Vikings", "Ravenwood Vikings VI", new[] {
-                new RequirementConfig("Wood", 10), new RequirementConfig("FineWood", 10)
-            }, "Custom decorative picture."),
-
+                      
             new RelicRegistration("WitchCat", "WitchCat", new[] {
                 new RequirementConfig("Coins", 50)
             }, "A big comfy witchcat. Provides +1 comfort.", 1),
@@ -194,33 +260,7 @@ namespace RavenwoodRandomRelics
                 new RequirementConfig("Stone", 5), new RequirementConfig("FineWood", 5),new RequirementConfig("Coins", 5)
             }, "A custom decorative piece."),
 
-            new RelicRegistration("blackdragonskeleton", "Dark Angel", new[] {
-                new RequirementConfig("Iron", 20), new RequirementConfig("FineWood", 20), new RequirementConfig("Coins", 100)
-            }, "A custom decorative piece."),
-
-            new RelicRegistration("dragon", "Draco", new[] {
-                new RequirementConfig("Eitr", 333), new RequirementConfig("Coins", 3333)
-            }, "A custom decorative piece."),
-
-            new RelicRegistration("throne", "Odin", new[] {
-                new RequirementConfig("Stone", 100), new RequirementConfig("Bronze", 100),new RequirementConfig("Coins", 1000)
-            }, "A custom decorative piece."),
-
-            new RelicRegistration("greythrone", "Grey throne", new[] {
-                new RequirementConfig("Stone", 100), new RequirementConfig("Bronze", 20), new RequirementConfig("Coins", 200)
-            }, "A custom decorative piece."),
-
-            new RelicRegistration("whitethrone", "White throne", new[] {
-                new RequirementConfig("Stone", 100), new RequirementConfig("Bronze", 20), new RequirementConfig("Coins", 200)
-            }, "A custom decorative piece."),
-
-            new RelicRegistration("blackthrone", "Black throne", new[] {
-                new RequirementConfig("Stone", 100), new RequirementConfig("Bronze", 20), new RequirementConfig("Coins", 200)
-            }, "A custom decorative piece."),
-
-            new RelicRegistration("goldenthrone", "Gold throne", new[] {
-                new RequirementConfig("Stone", 100), new RequirementConfig("Bronze", 20), new RequirementConfig("Coins", 200)
-            }, "A custom decorative piece."),
+           
 
             new RelicRegistration("BoatinBottle", "The Black Pearl", new[] {
                 new RequirementConfig("Coins", 10), new RequirementConfig("FineWood", 10)
@@ -234,9 +274,7 @@ namespace RavenwoodRandomRelics
                 new RequirementConfig("Thistle", 10), new RequirementConfig("Coins", 10)
             }, "A custom decorative piece."),
 
-            new RelicRegistration("horse", "Horse Bust Statue", new[] {
-                new RequirementConfig("Stone", 10), new RequirementConfig("FineWood", 10)
-            }, "A custom decorative piece."),
+
             
             //Trees
             
@@ -405,29 +443,30 @@ namespace RavenwoodRandomRelics
                 new RequirementConfig("Wood", 5), new RequirementConfig("FineWood", 5)
             }, "A custom decorative piece."),
 
-            // Crystals
+              new RelicRegistration("Picture1", "Ravenwood Vikings", new[] {
+                new RequirementConfig("Wood", 10), new RequirementConfig("FineWood", 10)
+            }, "Custom decorative picture."),
 
-            new RelicRegistration("Frost_Crystal", "Frost Crystal", new[] {
-                new RequirementConfig("Crystal", 5)
-            }, "A custom decorative piece."),
+            new RelicRegistration("Picture2", "Ravenwood Vikings II", new[] {
+                new RequirementConfig("Wood", 10), new RequirementConfig("FineWood", 10)
+            }, "Custom decorative picture."),
 
-            // Statues
+            new RelicRegistration("Picture3", "Ravenwood Vikings III", new[] {
+                new RequirementConfig("Wood", 10), new RequirementConfig("FineWood", 10)
+            }, "Custom decorative picture."),
 
-            new RelicRegistration("RRR_Medal_Cthulhu", "Cthulhu Medal", new[] {
-                new RequirementConfig("Stone", 15)
-            }, "A custom decorative piece."),
+            new RelicRegistration("Picture4", "Ravenwood Vikings IV", new[] {
+                new RequirementConfig("Wood", 10), new RequirementConfig("FineWood", 10)
+            }, "Custom decorative picture."),
 
-            new RelicRegistration("RRR_Medal_Octopus", "Octopus Medal", new[] {
-                new RequirementConfig("Stone", 15)
-            }, "A custom decorative piece."),
+            new RelicRegistration("Picture5", "Ravenwood Vikings V", new[] {
+                new RequirementConfig("Wood", 10), new RequirementConfig("FineWood", 10)
+            }, "Custom decorative picture."),
 
-            new RelicRegistration("RRR_Medal_Sectarian", "Sectarian Medal", new[] {
-                new RequirementConfig("Stone", 15)
-            }, "A custom decorative piece."),
+            new RelicRegistration("Vikings", "Ravenwood Vikings VI", new[] {
+                new RequirementConfig("Wood", 10), new RequirementConfig("FineWood", 10)
+            }, "Custom decorative picture.")
 
-            new RelicRegistration("RRR_Statue_Crab", "Crab Statue", new[] {
-                new RequirementConfig("Stone", 15)
-            }, "A custom decorative piece.")
        };
 
         public static void RegisterAllRelics(AssetBundle bundle)
